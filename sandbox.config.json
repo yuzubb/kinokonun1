@@ -1,4 +1,6 @@
 {
   "template": "static",
-  "entry": "www/index.html"
+  "entry": "www/index.html",
+  "ports": [8000],
+  "startScript": "npx serve -p 8000 www"
 }
